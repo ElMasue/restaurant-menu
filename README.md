@@ -16,7 +16,7 @@ The goal of this project is to **practice functional components, props, useEffec
 
 1. Clone the repository:
 ```bash
-git clone <REPOSITORY_URL>
+git clone <https://github.com/ElMasue/restaurant-menu>
 ```
 2. Install dependencies:
 ```bash
