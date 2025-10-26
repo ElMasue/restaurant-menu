@@ -1,0 +1,147 @@
+/* Reset muy ligero */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  gap: 15px;
+  background: #222;
+  padding: 12px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Páginas */
+h2 {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Grid */
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  padding: 0 10px;
+}
+
+/* Tarjetas */
+.item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.item h3 {
+  font-size: 17px;
+  margin: 10px 0 6px;
+}
+
+.item p {
+  margin: 4px 0;
+}
+
+/* Botones enlaces */
+.item a,
+.back-link {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 6px 10px;
+  background: #0074d9;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.item a:hover,
+.back-link:hover {
+  background: #005fa8;
+}
+
+/* Detalle del plato */
+.detail {
+  padding: 20px;
+  background: white;
+  border-radius: 6px;
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+}
+
+.detail img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.detail h2 {
+  margin-bottom: 8px;
+}
+
+.back-link {
+  margin-bottom: 12px;
+}
+/* NAVBAR */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #222;
+  padding: 12px 20px;
+}
+
+.nav-button {
+  background: #ff7f50;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background: #e06b3a;
+}
+
+.nav-select {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background: #444;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-select option {
+  color: white;
+  background: #444;
+}
